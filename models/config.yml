@@ -6,19 +6,19 @@ base:
 db_info:
     host: localhost
     port: 3306
-    username: user
-    password: pwd
-    database: dbname
+    username: root
+    password: 228999
+    database: order-food
     type: 0
 out_dir: .
 url_tag: json
-language: 中 文
+language: English
 db_tag: gorm
 user_gorm_model: false
 simple: true
 is_web_tag: false
 is_web_tag_pk_hidden: false
-is_foreign_key: false
+is_foreign_key: true
 is_out_sql: false
 is_out_func: false
 is_gui: false
